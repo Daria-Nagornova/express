@@ -14,9 +14,9 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
 
-const cors = require('cors')
+const cors = require('cors');
 
-app.use(cors())
+app.use(cors());
 
 app.use(logger('dev'));
 app.use(express.json());

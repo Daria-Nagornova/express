@@ -10,12 +10,11 @@ const all = async (req, res) => {
 
 const store = async (req, res) => {
 
-  /*  const post = new Post(req.body.id, req.body.title, req.body.body)
+    const post = new Post(req.body.id, req.body.title, req.body.body)
 
     await post.save()
 
-    res.status(201).json(post)*/
-    res.status(201).json(req.body)
+    res.status(201).json(post)
 
 }
 
